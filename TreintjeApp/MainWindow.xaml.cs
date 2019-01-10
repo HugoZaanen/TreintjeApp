@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TreintjeApp.ServiceReference1;
 
 namespace TreintjeApp
 {
@@ -23,6 +24,15 @@ namespace TreintjeApp
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            var proxy = new ServiceReference1.TreintijdenClient();
+
+            Station[] stations = proxy.GetStations();
+
+            lstbx.ItemsSource = stations;
         }
     }
 }

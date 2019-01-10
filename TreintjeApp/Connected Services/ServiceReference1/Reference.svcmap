@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d92034d3-308a-45d1-a895-0454e5de506d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://xanderwemmers.nl/treintijden.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Treintijden.xsd" MetadataType="Schema" ID="ccc2c7e6-aff2-452c-a387-ad9611d810fd" SourceId="1" SourceUrl="http://xanderwemmers.nl/Treintijden.svc?xsd=xsd0" />
+    <MetadataFile FileName="Treintijden1.xsd" MetadataType="Schema" ID="43caf776-cc32-49c2-927d-1273ab346e68" SourceId="1" SourceUrl="http://xanderwemmers.nl/Treintijden.svc?xsd=xsd2" />
+    <MetadataFile FileName="Treintijden.disco" MetadataType="Disco" ID="66ce9ef3-7e84-4ff0-a655-90b69651f641" SourceId="1" SourceUrl="http://xanderwemmers.nl/Treintijden.svc?disco" />
+    <MetadataFile FileName="Treintijden2.xsd" MetadataType="Schema" ID="449a02b4-d9a7-469b-bfa1-2ff4ca09fd0f" SourceId="1" SourceUrl="http://xanderwemmers.nl/Treintijden.svc?xsd=xsd1" />
+    <MetadataFile FileName="Treintijden.wsdl" MetadataType="Wsdl" ID="5d9fdc51-d893-4566-971f-6c043209c760" SourceId="1" SourceUrl="http://xanderwemmers.nl/Treintijden.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
